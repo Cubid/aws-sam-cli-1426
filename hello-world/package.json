@@ -10,6 +10,7 @@
     "axios": "^0.18.0"
   },
   "scripts": {
+    "prepack": "node -e 'console.log()'",
     "test": "mocha tests/unit/"
   },
   "devDependencies": {
